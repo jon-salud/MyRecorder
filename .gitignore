@@ -169,3 +169,8 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Application specific
+logs/
+recordings/
+recorded_audio.wav

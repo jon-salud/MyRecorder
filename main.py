@@ -15,12 +15,12 @@ def main():
     keyboard.wait('F9')
     logger.info("Recording started")
     print("Recording started...")
-    recorder.start_recording()
+    recorder.start()  # Changed from start_recording
     
     keyboard.wait('F10')
     logger.info("Recording stopped")
     print("Recording stopped...")
-    recorder.stop_recording()
+    recorder.stop()   # Changed from stop_recording
 
 if __name__ == "__main__":
     main()
