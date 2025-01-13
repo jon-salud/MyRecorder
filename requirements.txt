@@ -1,0 +1,11 @@
+Pillow>=9.0.0
+keyboard>=0.13.5
+mouse>=0.7.1
+pynput>=1.7.6
+pywin32>=305; sys_platform == 'win32'
+python-xlib>=0.33; sys_platform == 'linux'
+pyobjc-core>=9.0; sys_platform == 'darwin'
+pyobjc-framework-Cocoa>=9.0; sys_platform == 'darwin'
+
+pytest>=7.0.0
+pytest-cov>=4.0.0
